@@ -1,11 +1,22 @@
 .header__logo {
+    margin: 28px 0 0;
+    padding: 0;
+    background-image: url(../../../sprint-3-images/header-logo.svg);
+    background-size: cover;
     width: 176px;
     height: 52px;
-    display: block;
+    z-index: 3;
+    transition: 1s;
+    cursor: pointer;
   }
   
-  @media (max-width: 767px) {
+  .header__logo:hover {
+    opacity: 0.8;
+  }
+  
+  @media screen and (max-width: 320px) {
     .header__logo {
+      margin: 16px 0 0;
       width: 142px;
       height: 42px;
     }
