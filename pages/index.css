@@ -1,4 +1,7 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/font/font.css);
+@import url(../vendor/font/Inter-Black.woff);
+@import url(../vendor/font/Inter-Regular.woff);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
