@@ -8,20 +8,20 @@
 }
 @media (max-width: 1024px) {
   .header {
-    max-width: 928px;
-    margin-bottom: 48px;
+      max-width: 928px;
+      margin-bottom: 48px;
   }
 }
 @media (max-width: 768px) {
   .header {
-    width: calc(100% - 24px * 2);
-    max-width: 720px;
+      width: calc(100% - 24px * 2);
+      max-width: 720px;
   }
 }
 @media (max-width: 320px) {
   .header {
-    width: calc(100% - 16px * 2);
-    max-width: 288px;
-    margin: 16px auto 48px;
+      width: calc(100% - 16px * 2);
+      max-width: 288px;
+      margin: 16px auto 48px;
   }
 }

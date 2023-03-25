@@ -8,28 +8,29 @@
 
 @media (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+      max-width: 1024px;
   }
 }
 @media (max-width: 930px) {
   .cover {
-    margin: 75px auto;
+      margin: 75px auto;
   }
 }
 @media (max-width: 650px) {
   .cover {
-    margin: 20px auto;
+      margin: 20px auto;
   }
 }
 @media (max-width: 768px) {
   .cover {
-    margin: 90px auto;
-    max-width: 768px;
+      margin: 90px auto;
+      max-width: 768px;
   }
 }
 @media (max-width: 320px) {
   .cover {
-    max-width: 320px;
-    margin: 64px auto;
+      max-width: 320px;
+      margin: 64px auto;
   }
 }
+

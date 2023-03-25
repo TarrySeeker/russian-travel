@@ -7,19 +7,19 @@
 }
 @media (max-width: 630px) {
   .place__website {
-    align-self: flex-start;
+      align-self: flex-start;
   }
 }
 @media (max-width: 550px) {
   .place__website {
-    max-width: 270px;
+      max-width: 270px;
   }
 }
 @media (max-width: 320px) {
   .place__website {
-    margin-left: 16px;
-    width: 288px;
-    grid-column: 1;
-    grid-row: 2;
+      margin-left: 16px;
+      width: 288px;
+      grid-column: 1;
+      grid-row: 2;
   }
 }

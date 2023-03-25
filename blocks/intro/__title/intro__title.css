@@ -11,8 +11,8 @@
 }
 @media (max-width: 320px) {
   .intro__title {
-    max-width: 251px;
-    font-size: 2em;
-    line-height: 35px;
+      max-width: 251px;
+      font-size: 2em;
+      line-height: 35px;
   }
 }

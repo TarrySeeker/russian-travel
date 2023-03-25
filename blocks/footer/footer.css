@@ -8,25 +8,25 @@
 }
 @media (max-width: 1024px) {
   .footer {
-    max-width: 928px;
+      max-width: 928px;
   }
 }
 @media (max-width: 768px) {
   .footer {
-    width: calc(100% - 24px * 2);
+      width: calc(100% - 24px * 2);
   }
 }
 @media (max-width: 700px) {
   .footer {
-    width: 100%;
-    max-width: 700px;
-    flex-direction: column;
+      width: 100%;
+      max-width: 700px;
+      flex-direction: column;
   }
 }
 @media (max-width: 320px) {
   .footer {
-    margin-left: 16px;
-    max-width: 186px;
-    flex-direction: column;
+      margin-left: 16px;
+      max-width: 186px;
+      flex-direction: column;
   }
 }

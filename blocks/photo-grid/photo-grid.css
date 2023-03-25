@@ -10,32 +10,32 @@
 }
 @media (max-width: 1024px) {
   .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px;
-    height: 942px;
-    max-width: 928px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 14px;
+      height: 942px;
+      max-width: 928px;
   }
 }
 @media (max-width: 768px) {
   .photo-grid {
-    width: calc(100% - 24px * 2);
-    margin: 88px auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 16px;
-    max-width: 720px;
-    height: 1664px;
+      width: calc(100% - 24px * 2);
+      margin: 88px auto;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 16px;
+      max-width: 720px;
+      height: 1664px;
   }
 }
 @media (max-width: 320px) {
   .photo-grid {
-    width: calc(100% - 16px * 2);
-    margin: 64px auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    row-gap: 12px;
-    max-width: 288px;
-    height: 2724px;
+      width: calc(100% - 16px * 2);
+      margin: 64px auto;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(12, 1fr);
+      row-gap: 12px;
+      max-width: 288px;
+      height: 2724px;
   }
 }

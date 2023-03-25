@@ -9,31 +9,31 @@
 }
 @media (max-width: 1024px) {
   .lead__subtitle {
-    margin-bottom: 56px;
+      margin-bottom: 56px;
   }
 }
 @media (max-width: 900px) {
   .lead__subtitle {
-    margin-bottom: 36px;
+      margin-bottom: 36px;
   }
 }
 @media (max-width: 768px) {
   .lead__subtitle {
-    margin-bottom: 56px;
+      margin-bottom: 56px;
   }
 }
 @media (max-width: 600px) {
   .lead__subtitle {
-    max-width: 500px;
-    font-size: 1.5em;
+      max-width: 500px;
+      font-size: 1.5em;
   }
 }
 
 @media (max-width: 320px) {
   .lead__subtitle {
-    max-width: 288px;
-    margin: 0 auto 40px;
-    font-size: 1em;
-    line-height: 20px;
+      max-width: 288px;
+      margin: 0 auto 40px;
+      font-size: 1em;
+      line-height: 20px;
   }
 }

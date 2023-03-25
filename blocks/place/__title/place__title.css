@@ -6,30 +6,30 @@
 }
 @media (max-width: 900px) {
   .place__title {
-    font-size: 3.7em;
+      font-size: 3.7em;
   }
 }
 @media (max-width: 768px) {
   .place__title {
-    font-size: 2.6em;
-    line-height: 45px;
-    width: 270px;
+      font-size: 2.6em;
+      line-height: 45px;
+      width: 270px;
   }
 }
 @media (max-width: 720px) {
   .place__title {
-    width: 270px;
-    font-size: 2.62em;
-    line-height: 46px;
+      width: 270px;
+      font-size: 2.62em;
+      line-height: 46px;
   }
 }
 @media (max-width: 320px) {
   .place__title {
-    width: 288px;
-    margin: 0 auto;
-    grid-column: 1;
-    grid-row: 1;
-    font-size: 2em;
-    line-height: 35px;
+      width: 288px;
+      margin: 0 auto;
+      grid-column: 1;
+      grid-row: 1;
+      font-size: 2em;
+      line-height: 35px;
   }
 }
