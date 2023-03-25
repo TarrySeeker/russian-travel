@@ -1,38 +1,35 @@
 .cover {
-  margin: 0 auto 92px;
-  height: 740px;
-  max-width: calc(100% - 96px);
-  background-image: url(../../sprint-3-images/cover-trains.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
+  width: 100%;
+  max-width: 1184px;
+  margin-bottom: 92px;
+  margin: 92px auto;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .cover {
-    max-width: 100%;
-    height: 640px;
+    max-width: 1024px;
   }
 }
-
-@media screen and (max-width: 768px) {
+@media (max-width: 930px) {
   .cover {
-    margin: 0 auto 88px;
-    height: 480px;
+    margin: 75px auto;
   }
 }
-
-@media screen and (max-width: 666px) {
+@media (max-width: 650px) {
   .cover {
-    margin: 0 auto 64px;
-    max-height: 480px;
+    margin: 20px auto;
   }
 }
-
-@media screen and (max-width: 320px) {
+@media (max-width: 768px) {
   .cover {
-    height: 200px;
+    margin: 90px auto;
+    max-width: 768px;
   }
 }
-  
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    margin: 64px auto;
+  }
+}

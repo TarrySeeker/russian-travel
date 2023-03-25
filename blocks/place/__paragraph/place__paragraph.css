@@ -1,25 +1,25 @@
-.place__paragraph {
-  margin: 0 0 26px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.63;
-  color: #FFFFFF;
+.place__paragraph-item {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.12em;
+  line-height: 163%;
+}
+.place__paragraph-item:nth-child(2) {
+  margin-top: 26px;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-    margin: 0 0 25px;
-    max-width: 100%;
+@media (max-width: 1024px) {
+  .place__paragraph-item:nth-child(2) {
+    margin-top: 25px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-    margin: 0 16px 25px;
+@media (max-width: 768px) {
+  .place__paragraph-item {
+    font-size: 1em;
   }
 }
-
- /*row-gap 25px не работает, делаю костыль */
+@media (max-width: 320px) {
+  .place__paragraph-item:nth-child(2) {
+    margin-top: 0;
+  }
+}

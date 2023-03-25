@@ -1,38 +1,39 @@
 .place {
-  margin: 0 auto 80px;
+  width: 100%;
+  max-width: 984px;
+  margin-bottom: 80px;
   display: grid;
-  grid-template-rows: minmax(min-content, max-content) minmax(460px, 1fr);
-  grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
-  column-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  grid-template-rows: 1fr;
   row-gap: 48px;
+  column-gap: 40px;
 }
-
-
-/* Я так и не понял как создавать колонки разной высоты или ряды разной ширины :\ */
-
-@media screen and (max-width: 1024px) {
+.place:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 1024px) {
   .place {
-    grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
-    grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 32px;
   }
 }
-
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .place {
-    grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
-    grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
+    margin-bottom: 73px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     column-gap: 28px;
-    margin: 0 auto 73px;
   }
 }
-
-@media screen and (max-width: 560px) {
+@media (max-width: 630px) {
   .place {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 auto 50px;
+    text-align: start;
+  }
+}
+@media (max-width: 320px) {
+  .place {
     row-gap: 32px;
+    margin-bottom: 50px;
   }
 }
