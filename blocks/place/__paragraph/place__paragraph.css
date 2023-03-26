@@ -20,6 +20,5 @@
 }
 @media (max-width: 320px) {
   .place__paragraph-item:nth-child(2) {
-      margin-top: 0;
   }
 }
