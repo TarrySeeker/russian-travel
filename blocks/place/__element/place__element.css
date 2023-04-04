@@ -1,0 +1,22 @@
+.place__element {
+  width: 100%;
+  max-width: 484px;
+  margin-bottom: 26px;
+  grid-column: 2;
+  grid-row: 2;
+  flex-direction: column;
+  row-gap: 25px;
+}
+@media (max-width: 768px) {
+  .place__element {
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  .place__element {
+    margin: 0 auto;
+    display: flex;
+    width: calc(100% - 2 * 16px);
+  }
+}
+
