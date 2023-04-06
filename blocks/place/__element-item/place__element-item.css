@@ -4,22 +4,28 @@
   font-size: 1.12em;
   line-height: 163%;
 }
-.place__paragraph-item:nth-child(2) {
+.place__element-item:nth-child(2) {
   margin-top: 26px;
 }
 
 @media (max-width: 1024px) {
-  .place__paragraph-item:nth-child(2) {
-    margin-top: 25px;
+  .place__element-item:nth-child(2) {
+    margin-top: 26px;
   }
 }
 @media (max-width: 768px) {
-  .place__paragraph-item {
-    font-size: 1em;
+  .place__element-item {
+    font-size: 16px;
   }
 }
 @media (max-width: 320px) {
-  .place__paragraph-item:nth-child(2) {
-    margin-top: 0;
+  .place__element-item:nth-child(2) {   
+    margin-top: 25px;
   }
 }
+/*@media (max-width: 768px)
+    .place__element-item {
+        font-size: 16px;
+    } 
+    в макете размер штрифта 16px, он распростроняется на разрешение 320*/
+
