@@ -6,6 +6,7 @@
   grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   grid-template-rows: 1fr;
   row-gap: 48px;
+  column-gap: 40px;
 }
 .place:last-child {
   margin-bottom: 0;
@@ -18,7 +19,7 @@
 }
 @media (max-width: 768px) {
   .place {
-    margin-bottom: 73px;
+    margin-bottom: 75px;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     column-gap: 28px;
   }
@@ -33,6 +34,6 @@
 @media (max-width: 320px) {
   .place {
     row-gap: 32px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }
